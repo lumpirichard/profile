@@ -91,12 +91,30 @@ p a:hover {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 150px;
   left: 0;
   top: 0;
   bottom: 0;
-  color: red;
+  background-color: #7D7D7D;
+  color: #FFFFFC;
 }
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  margin: 30px 0;
+}
+
+#sidebar a {
+  color: #EBEBEB;
+}
+
+#sidebar a:hover {
+  color: #E24E30;
+}
+
 #page-content {
-  margin-left: 300px;
+  margin-left: 150px;
 }
